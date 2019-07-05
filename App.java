@@ -87,7 +87,7 @@ public class App {
 				
 				str.append(" CONSTRAINT ").append("PK_" + tableEntry.getKey())
 					.append(" PRIMARY KEY (" + tableEntry.getKey() + ")");
-				str.append(")");
+				str.append(");");
 				
 				System.out.println(str.toString());
 			}
